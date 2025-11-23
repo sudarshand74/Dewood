@@ -18,9 +18,11 @@ def main():
             sys.exit(1)
 
     s = a + b
+    p = a - b
     # Print as int if whole number, otherwise as float
     if float(s).is_integer():
         print(int(s))
+        print(int(p))
     else:
         print(s)
 
