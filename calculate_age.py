@@ -56,7 +56,7 @@ def format_age(result: Dict) -> str:
     today = result["today"].isoformat()
     return (
         f"Hello {name}, born {dob}.\nYou are {years} year{'s' if years!=1 else ''} "
-        f"and {days} day{'s' if days!=1 else ''} olds (total {total} days) as of dd {today}."
+        f"and {days} day{'s' if days!=1 else ''} olds (total {total} days) as of TODAY {today}."
     )
 
 
